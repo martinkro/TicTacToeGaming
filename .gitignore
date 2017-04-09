@@ -250,3 +250,8 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+*.gcda
+*.gcno
+*.gcov
+*.exe
