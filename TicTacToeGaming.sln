@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToeGamingTest", "TicTacToeGamingTest\TicTacToeGamingTest.vcxproj", "{ED2FC7F1-68BF-4629-A1BE-C61673613675}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D484354F-DC7D-45CF-989D-52AD108E73AA} = {D484354F-DC7D-45CF-989D-52AD108E73AA}
+		{9B9DEABD-FD38-4B65-B26C-68DB530B607E} = {9B9DEABD-FD38-4B65-B26C-68DB530B607E}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToeConsoleGaming", "TicTacToeConsoleGaming\TicTacToeConsoleGaming.vcxproj", "{D12A95FE-A0F5-4F65-8A9D-39CD6891707D}"
 	ProjectSection(ProjectDependencies) = postProject
